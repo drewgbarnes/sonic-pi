@@ -33,8 +33,6 @@ live_loop :kick, sync: :met do
   end
 end
 
-
-
 live_loop :hat, sync: :met do
   drums "-l--l---l--l--l-", :drum_cymbal_closed, attack: 0.05, amp: 0.9
   ##| sleep 1
